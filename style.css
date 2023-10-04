@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.section-title::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 40px;
+  background: #54B689;
+  margin-right: 20px;
+  transform: translateY(8px);
+}
+
+.fa-brands {
+  font-size: 40px;
+}
+
+.fa-square-js,
+.fa-vuejs,
+.fa-node-js {
+  color: #54B689;
+} 
+
+.fa-angular,
+.fa-npm,
+.fa-gulp {
+  color: #dd1b16;
+}
+
+.fa-react {
+  color: #61dafb;
+}
+
+.fa-python,
+.fa-less {
+  color: #3776ab;
+}
+
+.fa-grunt {
+  color: #FBA91A;
+}
+
+.fa-php {
+  color: #8993be;
+}
+
+.fa-html5 {
+  color: #F06529;
+}
+
+.fa-css3-alt {
+  color: #2965f1;
+}
+
+.fa-sass {
+  color: #cc6699;
+}
+
+
+
